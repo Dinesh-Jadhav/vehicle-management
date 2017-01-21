@@ -1,20 +1,19 @@
-<nav class="white" role="navigation">
-  <div class="nav-wrapper container"><a id="logo-container" href="#/vendor-dashboard" class="brand-logo"><img class="responsive-img circle" src="./images/logo1.png" style="height: 65px; padding: 5px;" /></a>
-    <ul class="right hide-on-med-and-down" ng-controller="headerController">
-      <li ng-class="{active: $route.current.activetab == 'vendorDashboard'}"><a href="#/vendor-dashboard">Active Sessions</a></li>
-      <li ng-class="{active: $route.current.activetab == 'completeSession'}"><a href="#/complete-sessions">Complete Sessions</a></li>
-      <li ng-class="{active: $route.current.activetab == 'settings'}"><a href="#/settings">Settings</a></li>
-      <li><a data-ng-click="logout()">Logout</a></li>
-    </ul>
-
-    <ul id="nav-mobile" class="side-nav">
-      <li><a href="#/dashboard">Sessions</a></li>
-      <li><a href="#/user">Users</a></li>
-      <li><a href="#/vendors">Vendors</a></li>
-      <li><a href="#/recharges">Transaction</a></li>
-      <li><a data-ng-click="logout()">Logout</a></li>
-    </ul>
-    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">Menu</i></a>
-  </div>
+<nav class="cyan" role="navigation">
+    <a id="logo-container" href="#/vendor-dashboard" class="brand-logo"><img class="responsive-img circle" src="./images/logo1.png" style="height: 100px; padding: 5px;" /></a>
+    <div class="nav-wrapper container">
+        <ul class="right hide-on-med-and-down" ng-controller="headerController">
+            <li ng-class=""><a href="#/vendor-dashboard" class="white-text">Active Sessions</a></li>
+            <li ng-class=""><a href="#/complete-sessions" class="white-text">Complete Sessions</a></li>
+            <li ng-class=""><a href="#/settings" class="white-text">Settings</a></li>
+            <li><a data-ng-click="logout()" class="white-text">Logout</a></li>
+        </ul>
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="#/dashboard" class="white-text">Sessions</a></li>
+            <li><a href="#/user" class="white-text">Users</a></li>
+            <li><a href="#/vendors" class="white-text">Vendors</a></li>
+            <li><a href="#/recharges" class="white-text">Transaction</a></li>
+            <li><a data-ng-click="logout()" class="white-text">Logout</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">Menu</i></a>
+    </div>
 </nav>
-

@@ -39,8 +39,6 @@ customApp.controller('vendorResetPasswordCtrl', ['$scope', '$http', function($sc
                 $scope.errorMessage = 'Please contact Administrator asap!';
             }
 
-
-
         });
     }
 

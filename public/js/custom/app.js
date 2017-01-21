@@ -22,10 +22,10 @@ customApp.config(function($routeProvider) {
         controller: 'userController as user',
         templateUrl: 'html/user.html',
         activetab: 'users'
-    }).when('/recharges', {
-        controller: 'rechargeController as recharge',
-        templateUrl: 'html/recharge.html',
-        activetab: 'recharges'
+    }).when('/livetrack', {
+        controller: 'liveTracker',
+        templateUrl: 'html/map.html',
+        activetab: 'livetrack'
     }).when('/completed', {
         controller: 'completedTripController',
         templateUrl: 'html/completed.html',
